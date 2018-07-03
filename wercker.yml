@@ -1,0 +1,9 @@
+box: debian:stable-slim
+
+build:
+
+publish:
+  steps:
+    - internal/publish-step:
+      owner: markxnelson
+      private: true

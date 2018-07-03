@@ -1,0 +1,7 @@
+name: private-step
+version: 1.0.0
+summary: A private step
+properties:
+  - name: param1
+    type: string
+    required: false
