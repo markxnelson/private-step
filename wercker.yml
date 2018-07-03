@@ -1,6 +1,10 @@
 box: debian:stable-slim
 
 build:
+  steps:
+    - script:
+      code: |
+        echo 'Nothing to do'
 
 publish:
   steps:
